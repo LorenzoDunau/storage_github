@@ -137,60 +137,13 @@ h4{
     }
 }
 
-@media only screen and (max-width: 900px){ /*Ci dessus les instructions en cas d'emploi sur smartphone*/
-    p{
-        font-size: 1vw;
-        padding-left: 20px;
-        border: none solid 1px;
-    }
-    
-    
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
     h1{
-        font-size: 3%;
-        text-decoration: none;
-        color: black;
+        color: red;
         border: none solid 1px;
-        text-align: center;
     
-    }
-    
-    h2{
-        font-size: 2%;
-        text-decoration: none;
-        color: black;
-        border: none solid 1px;
-        text-align: center;
-    }
-    
-    h3{
-        font-size: 2vmin;
-        text-decoration: none;
-        color: black;
-        border: none solid 1px;
-        text-align: center;
-    }
-    
-    h4{
-        font-size: 2vmin;
-        border: none solid 1px;
-        text-decoration: none;
-        color: black;
-        text-align: center;
-    }
-    
-
-    #mode{
-        height: 0px;
-        width: 0px;
-        position: fixed;
-    }
-
-    #container
-    {
-        /*ermet de bloquer chaque diapositive au centre de la fenêtre*/
-        scroll-snap-type: y mandatory;
-        overflow-y: scroll;
-        height: 100vh;
     }
 }
 
