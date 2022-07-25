@@ -143,7 +143,24 @@ and (max-device-width : 667px) {
     h1{
         color: red;
         border: none solid 1px;
+    }
+        h1{
+        color: red;
+        border: none solid 1px;
     
+    }
+    #mode{
+        height: 0px;
+        width: 0px;
+        position: fixed;
+    }
+
+    #container
+    {
+        /*ermet de bloquer chaque diapositive au centre de la fenêtre*/
+        scroll-snap-type: y mandatory;
+        overflow-y: visible;
+        height: 100vh;
     }
 }
 
