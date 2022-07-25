@@ -189,7 +189,7 @@ h4{
     {
         /*ermet de bloquer chaque diapositive au centre de la fenêtre*/
         scroll-snap-type: y mandatory;
-        overflow-y: visible;
+        overflow-y: scroll;
         height: 100vh;
     }
 }
