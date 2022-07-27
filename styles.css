@@ -48,7 +48,7 @@ p{
 
 
 h1{
-    font-size: 12vh;
+    font-size: 12vw;
     text-decoration: none;
     color: black;
     border: none solid 1px;
@@ -57,7 +57,7 @@ h1{
 }
 
 h2{
-    font-size: 5vh;
+    font-size: 5vw;
     text-decoration: none;
     color: black;
     border: none solid 1px;
@@ -65,7 +65,7 @@ h2{
 }
 
 h3{
-    font-size: 5vh;
+    font-size: 5vw;
     text-decoration: none;
     color: black;
     border: none solid 1px;
@@ -73,7 +73,7 @@ h3{
 }
 
 h4{
-    font-size: 7vh;
+    font-size: 7vw;
     border: none solid 1px;
     text-decoration: none;
     color: black;
@@ -142,13 +142,6 @@ h4{
         color: red;
         border: none solid 1px;
         font-size: 4vw;
-        
-    }
-        h1{
-        color: red;
-        border: none solid 1px;
-        font-size: 5vh;
-    
     }
     #mode{
         height: 0px;
