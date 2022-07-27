@@ -137,7 +137,7 @@ h4{
     }
 }
 
-@media only screen and (hover: none) and (pointer: coarse) and (min-device-width : 375px) and (max-device-width : 667px){
+@media only screen and (hover: none) and (pointer: coarse) and (min-device-width : 375px) and (max-device-width : 1010px){
     h1{
         color: red;
         border: none solid 1px;
