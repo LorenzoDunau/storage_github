@@ -1,5 +1,5 @@
 // paramètres de mise en page
-const coefficientTailleCaractere = 200;
+const coefficientTailleCaractere = 190;
 const portionEcranOccupeMax = 90;
 
 
